@@ -1,0 +1,21 @@
+# Build artifacts
+**/bin/
+**/obj/
+**/out/
+
+# IDE / VCS
+.git/
+.vs/
+.vscode/
+**/*.user
+
+# Infra / docs (khong can trong image)
+infrastructure/
+**/*.md
+
+# Node
+node_modules/
+
+# Secrets local
+**/.env
+**/appsettings.*.local.json
